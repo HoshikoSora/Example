@@ -18,6 +18,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 img {
 	height: 100%;
@@ -25,7 +26,7 @@ img {
 	object-fit: cover;
 }
 p {
-	color: black;
+	color: white;
 	font-size: 1.4rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -35,14 +36,14 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: lightblue;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
 .section-title span {
-	color: crimson;
+	color: lightblue;
 }
 
 .cta {
@@ -50,7 +51,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid crimson;
+	border: 2px solid lightskyblue;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -60,7 +61,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: crimson;
+	background-color: lightskyblue;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -68,7 +69,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: crimson;
+	color: lightskyblue;
 }
 
 /* Header section */
@@ -140,7 +141,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: lightblue;
 }
 #header .hamburger {
 	height: 60px;
@@ -200,7 +201,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/img-3.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -213,7 +214,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-color: rgb(40, 40, 40);
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -248,7 +249,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: crimson;
+	background-color: lightblue;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -442,7 +443,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px solid lightskyblue;
 	z-index: -1;
 }
 /* End About Section */
@@ -560,7 +561,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: crimson;
+		color: lightskyblue;
 		font-weight: 500;
 	}
 }
@@ -624,7 +625,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid crimson;
+		border: 10px solid lightblue;
 	}
 	#about .col-right {
 		text-align: left;
